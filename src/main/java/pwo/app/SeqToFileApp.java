@@ -5,6 +5,10 @@ import pwo.utils.SequenceTools;
 import java.nio.file.Paths;
 import java.nio.file.InvalidPathException;
 
+/**
+ * Zapisanie efektu wykonania programu do pliku
+ * @author Weronika
+ */
 class SeqToFileApp {
 
     protected SeqType seqType = null;

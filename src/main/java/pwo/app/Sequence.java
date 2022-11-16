@@ -1,7 +1,14 @@
 package pwo.app;
 
+/**
+ *
+ * @author Weronika
+ */
 public class Sequence {
 
+    /**
+     *Wyświetlenie/zapisanie wyników programu w zależności od podanych argumentów
+     */
     public static void main(String[] args) {
 
         switch (args.length) {

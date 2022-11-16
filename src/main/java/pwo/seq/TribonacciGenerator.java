@@ -2,6 +2,10 @@ package pwo.seq;
 
 import java.math.BigDecimal;
 
+/**
+ * Klasa generatora ciągu tribonacciego dziedzicząca po klasie FibonacciGenerator
+ * @author Weronika
+ */
 public class TribonacciGenerator extends
         FibonacciGenerator {
 
@@ -9,12 +13,17 @@ public class TribonacciGenerator extends
         f_3 = new BigDecimal(0);
     }
 
+
     @Override
     public void reset() {
         super.reset();
         f_3 = new BigDecimal(0);
     }
 
+    /**
+     * Obliczanie kolejnego wyrazu ciagu tribonacciego
+     * 
+     */
     @Override
     public BigDecimal nextTerm() {
         if (lastIndex > 2) {
